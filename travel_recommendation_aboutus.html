@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./travel_recommendation.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+    <title>TravelWebSite...</title>
+</head>
+
+<body>
+    <nav class='header'>
+        <div class="logo"><img src="./images/logo.jpg" width="40px" height="40px">
+            <h1>TravelBloom</h1>
+        </div>
+        <ul class="header-item">
+            <li><a href="travel_recommendation.html" id="home"> Home</a></li>
+            <li><a href="travel_recommendation_aboutus.html" id="About"> About us</a></li>
+            <li><a href="travel_recommendation_contact.html" id="contacts"> Contact us</a></li>
+        </ul>
+        <div class="search-Menu">
+            <input class="search-text" id="search-text" type="text" placeholder="Enter a destination or Key">
+            <div class="seach-control">
+                <img src="./images/search.png" width="20px" height="20px" class="search-icon">
+                <button id='btnSearch' class="btn-searchMenu">Search</button><button id='btnClear'
+                    class="btn-clearMenu">Clear</button>
+            </div>
+        </div>
+
+    </nav>
+
+
+    <div class="container">
+        <h1 class="About-header">About Us</h1>
+        <div class="section-content">
+
+
+            <ul class="about-social-icons">
+                <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+            </ul>
+
+            <div class="about-content">
+
+                <p class="about-description"> Erlebe unvergessliche Abenteuer an der Küste, in den Bergen und in fernen
+                    Städten.
+                    Wähle dein Reiseziel, pack deinen Koffer und lass dich von authentischen Erlebnissen überraschen.
+                </p>
+                <div class="ourTeam">
+                    <h2 class="intro">Our Team</h2>
+                    <div class="item">
+                        <i class="fas fa-user"></i>
+                        <h3 class="item-definition">John Deo</h3>
+                        <p class="item-desription">Develope Software</p>
+                        <button class="btn-position"> CEO</button>
+                    </div>
+                    <div class="item">
+                        <i class="fas fa-user"></i>
+                        <h3 class="item-definition">Celien Thomas</h3>
+                        <p class="item-desription">Lead The Team und korrekt the Fehler</p>
+                        <button class="btn-position"> Team Lead</button>
+                    </div>
+                    <div class="item">
+                        <i class="fas fa-user"></i>
+                        <h3 class="item-definition">Milke Tsgaj</h3>
+                        <p class="item-desription">Project Delicery und sozial relationships</p>
+                        <button class="btn-position"> Delivery Head</button>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+        <div class="history">
+            <h1 class="history-title">Company History</h1>
+            <p class="history-descrition">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non architecto similique libero. Tempora quia illum distinctio. Quasi, sapiente necessitatibus dolor non ipsam, eaque illo, magnam hic incidunt ex iusto ullam!</p>
+            <div class="history-content">
+                <h2 class="history-content-title">Our Location</h2>
+                <div class="images">
+                    <img src="./images/11.jpg">
+                    <img src="./images/12.jpg">
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+ <div  id="result-content"></div>
+    <script src="./travel_recommendation.js"></script>
+</body>
+
+</html>
